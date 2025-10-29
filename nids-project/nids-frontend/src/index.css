@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Project custom styles */
+body {
+  background-color: #1e1e1e;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+.card {
+  border-radius: 10px;
+  border: 1px solid rgba(0, 255, 255, 0.1);
+  background: linear-gradient(180deg, #1f1f1f, #141414);
+  box-shadow: 0px 0px 10px rgba(0, 255, 255, 0.1);
+}
+
+.card-header {
+  font-weight: 600;
+  color: #00ffff;
+}
+
+h5 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.table {
+  color: #e0e0e0;
+}
+
+.table {
+  border-radius: 8px;
+  border: 1px solid rgba(0, 255, 255, 0.1);
+}
+
+.table thead {
+  background-color: rgba(0, 255, 255, 0.1);
+  color: #00ffff;
+}
+
+.table tbody tr:hover {
+  background-color: rgba(0, 255, 255, 0.1);
+  transition: background-color 0.2s ease;
+}
+
+.text-info {
+  color: #00ffff !important;
+}
